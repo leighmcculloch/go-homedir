@@ -1,0 +1,14 @@
+language: go
+go:
+  - 1.6
+
+os:
+  - linux
+  - osx
+
+script:
+  - go test -coverprofile=coverage.txt
+  - go vet
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
