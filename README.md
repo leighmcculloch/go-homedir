@@ -3,7 +3,7 @@
 [![Windows Build Status](https://img.shields.io/appveyor/ci/leighmcculloch/homedir.svg?label=windows)](https://ci.appveyor.com/project/leighmcculloch/homedir)
 [![Codecov](https://img.shields.io/codecov/c/github/leighmcculloch/homedir.svg)](https://codecov.io/gh/leighmcculloch/homedir)
 [![Go Report Card](https://goreportcard.com/badge/github.com/leighmcculloch/homedir)](https://goreportcard.com/report/github.com/leighmcculloch/homedir)
-[![Go docs](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/leighmcculloch/homedir)
+[![Go docs](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/4d63.com/homedir)
 
 A Go library for getting the user's home directory without cgo allowing for cross compilation.
 
@@ -12,7 +12,7 @@ This is a tracking fork of [mitchellh/go-homedir](https://github.com/mitchellh/g
 ## Usage
 
 ```go
-import "github.com/leighmcculloch/homedir"
+import "4d63.com/homedir"
 
 // Call `homedir.Dir()` to get the home directory of the current user.
 homePath := homedir.Dir()

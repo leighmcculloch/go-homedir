@@ -1,6 +1,6 @@
 language: go
-go:
-  - 1.6
+
+go_import_path: 4d63.com/homedir
 
 os:
   - linux
