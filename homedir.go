@@ -1,4 +1,4 @@
-package homedir
+package homedir // import "4d63.com/homedir"
 
 import (
 	"errors"
