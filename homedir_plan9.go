@@ -1,4 +1,4 @@
-//+build !darwin,!plan9,!windows
+//+build plan9
 
 package homedir
 
@@ -12,8 +12,8 @@ import (
 )
 
 func dir() (string, error) {
-	// First prefer the HOME environmental variable
-	if home := os.Getenv("HOME"); home != "" {
+	// First prefer the home environmental variable
+	if home := os.Getenv("home"); home != "" {
 		return home, nil
 	}
 
